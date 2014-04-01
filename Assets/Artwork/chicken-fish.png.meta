@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 7ae5b5b6a66574e89b5aeb54a221bdb1
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 2
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -3
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: chicken-fish_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 152
+        width: 199
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: chicken-fish_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 152
+        width: 199
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: chicken-fish_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 152
+        width: 200
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: chicken-fish_3
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 152
+        width: 200
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: chicken-fish_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 199
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: chicken-fish_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 199
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: chicken-fish_6
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 0
+        width: 200
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: chicken-fish_7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 0
+        width: 199
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
