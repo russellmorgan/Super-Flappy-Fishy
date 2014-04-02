@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C08C930C-FF8E-0620-3B87-8410F6C77BFF}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\PlayAdsSDK\PlayAdsSDK.cs" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_slots_status_shape.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_large_light_grey_box.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_memory_game_cell.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_memory_game.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_slot_machine.xml" />
+     <None Include="Assets\PlayMaker\Readme.txt" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_slide_prev_out.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_free_label_shape.xml" />
+     <None Include="Assets\Plugins\Android\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_fade_in.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_slide_next_out.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_wheel_val.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_shape_tag.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_loading.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_slide_prev_in.xml" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_dark_grey_box.xml" />
+     <None Include="Assets\Plugins\Android\PlayAdsSDK-Activity.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_scratch_screen.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_fade_out.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_view_branding.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_light_grey_box.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_alpha_sine.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_arrow_mirror.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_daily_footer.xml" />
+     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Plugins\Android\res\layout-land\al_activity_slot_machine.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_slot_machine_background.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_memory_backgrnd.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_game_list.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_row_game.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_slots_button_shape.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_cover_flow.xml" />
+     <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_gift_screen.xml" />
+     <None Include="Assets\Plugins\Android\res\values-xlarge\dimens.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_light_weight.xml" />
+     <None Include="Assets\Plugins\Android\res\values-large\dimens.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_view_cover_flow_item.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_view_scratch_back.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_gamelist_header.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_slide_next_in.xml" />
+     <None Include="Assets\PlayMaker\Versions\readme.txt" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_wheel_bg.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_game_name_shape.xml" />
+     <None Include="Assets\Plugins\Android\res\values\dimens.xml" />
+ <Reference Include="Assets\PlayMaker\PlayMaker">
+ <HintPath>Assets\PlayMaker\PlayMaker.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

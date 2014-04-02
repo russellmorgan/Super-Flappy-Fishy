@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/al_global_black" >
+
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="false"
+        android:background="#0000"
+        android:scaleType="centerCrop"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/daily_game_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/daily_store_btn"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_above="@+id/daily_store_btn"
+        android:background="@drawable/al_daily_footer"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/daily_info_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/daily_info_bot"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/daily_name"
+            style="@style/AL_DailyTileText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/daily_free_label" />
+
+        <TextView
+            android:id="@+id/daily_free_label"
+            style="@style/AL_GameListCurrentPriceStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/daily_info_bot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/daily_store_btn"
+        android:orientation="horizontal"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:id="@+id/daily_tag"
+            style="@style/AL_TagTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/al_shape_tag"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/daily_price"
+            style="@style/AL_DailyCurrentPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/daily_tag"
+            android:gravity="top|right" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/daily_store_btn"
+        style="@style/AL_DailyButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/al_btn_green_end"
+        android:drawableLeft="@drawable/al_play_store_icon_small"
+        android:text="@string/al_daily_store_button" />
+
+    <com.applift.playads.ui.widget.BrandingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/daily_store_btn"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="10dip" />
+
+    <ImageView
+        android:id="@+id/daily_showinfo_btn"
+        android:layout_width="36dip"
+        android:layout_height="36dip"
+        android:layout_alignTop="@+id/daily_info_box"
+        android:layout_marginLeft="10dip"
+        android:src="@drawable/al_daily_info_button" />
+
+    <TextView
+        android:id="@+id/daily_info_box"
+        style="@style/AL_DailyInfoBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/daily_info_top"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="10dip"
+        android:layout_toRightOf="@+id/daily_showinfo_btn"
+        android:visibility="invisible" />
+
+</RelativeLayout>

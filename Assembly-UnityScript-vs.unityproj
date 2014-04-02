@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{EBADFAB5-6804-4317-B5BC-3B606C10A4A5}</ProjectGuid>
+	<ProjectGuid>{985A1C46-A487-39A3-5800-31953853EF5D}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -48,13 +48,61 @@
   <ItemGroup>
      <Compile Include="Assets\EightBitInspiredA\_Scripts\FireParticles4.js" />
      <Compile Include="Assets\Extensions\IOS Native\xExample\Scripts\JSExample\JSCall.js" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_slots_status_shape.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_large_light_grey_box.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_memory_game_cell.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_memory_game.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_slot_machine.xml" />
      <None Include="Assets\PlayMaker\Readme.txt" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_slide_prev_out.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_free_label_shape.xml" />
+     <None Include="Assets\Plugins\Android\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_fade_in.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_slide_next_out.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_wheel_val.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_shape_tag.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_loading.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_slide_prev_in.xml" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_dark_grey_box.xml" />
+     <None Include="Assets\Plugins\Android\PlayAdsSDK-Activity.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_scratch_screen.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_fade_out.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_view_branding.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_light_grey_box.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_alpha_sine.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_arrow_mirror.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_daily_footer.xml" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Plugins\Android\res\layout-land\al_activity_slot_machine.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_slot_machine_background.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_memory_backgrnd.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_game_list.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_row_game.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_slots_button_shape.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_cover_flow.xml" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_gift_screen.xml" />
+     <None Include="Assets\Plugins\Android\res\values-xlarge\dimens.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_activity_light_weight.xml" />
+     <None Include="Assets\Plugins\Android\res\values-large\dimens.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_view_cover_flow_item.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\al_view_scratch_back.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_gamelist_header.xml" />
+     <None Include="Assets\Plugins\Android\res\anim\al_slide_next_in.xml" />
      <None Include="Assets\PlayMaker\Versions\readme.txt" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_wheel_bg.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\al_game_name_shape.xml" />
+     <None Include="Assets\Plugins\Android\res\values\dimens.xml" />
  <Reference Include="Assets\PlayMaker\PlayMaker">
  <HintPath>Assets\PlayMaker\PlayMaker.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{C08C930C-FF8E-0620-3B87-8410F6C77BFF}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

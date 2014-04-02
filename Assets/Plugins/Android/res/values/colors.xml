@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global colors -->
+    <color name="al_global_orange">#F77E2F</color>
+    <color name="al_global_white">#FFFFFF</color>
+    <color name="al_global_black">#000000</color>
+    
+    <color name="al_global_light_grey">#d6d6d6</color>
+    <color name="al_global_white_transparent">#DDFFFFFF</color>
+    <color name="al_global_dark_grey">#555555</color>
+
+    <!-- Theme colors -->
+    <color name="al_background">#f4f4f4</color>
+    <color name="al_shadow_normal">#555555</color>
+    <color name="al_shadow_dark">#151515</color>
+
+    <!-- Button colors -->    
+    <color name="al_btn_green_end">#779C43</color>
+    
+    <color name="al_btn_grey">#7b7d82</color>
+
+    <color name="al_game_list_new_ribbon_bg">#0099cc</color>
+
+    <!-- Slot Machine colors -->
+    <color name="al_slots_button_color">#46FF00</color>
+    <color name="al_slots_text_color">#FF2D00</color>
+
+</resources>

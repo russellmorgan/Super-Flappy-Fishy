@@ -1,0 +1,19 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/view_version"
+        style="@style/AL_DailyInfoBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginRight="5dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/btn_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/al_sdk_button" />
+
+</merge>

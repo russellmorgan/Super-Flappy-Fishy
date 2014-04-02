@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_game_root"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/al_game_row_height" >
+
+    <ImageView
+        android:id="@+id/row_game_image"
+        style="@style/AL_GameListRowIcon"
+        android:layout_width="@dimen/al_game_row_image_side"
+        android:layout_height="@dimen/al_game_row_image_side"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/al_game_row_image_margin_vertical"
+        android:layout_marginLeft="@dimen/al_game_row_image_margin_horizontal"
+        android:layout_marginRight="@dimen/al_game_row_image_margin_horizontal"
+        android:layout_marginTop="@dimen/al_game_row_image_margin_vertical"
+        android:adjustViewBounds="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/al_large_light_grey_box" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:id="@+id/row_game_name"
+                    style="@style/AL_GameListNameStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/al_game_row_name_margin"
+                    android:ellipsize="end"
+                    android:singleLine="false" />
+
+                <TextView
+                    android:id="@+id/row_game_price"
+                    style="@style/AL_GameListCurrentPriceStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/row_game_name"
+                    android:layout_marginTop="@dimen/al_game_row_price_margin"
+                    android:background="@drawable/al_free_label_shape"
+                    android:text="@string/al_for_free" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/al_game_row_download_margin"
+                android:layout_weight="1.4"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/row_game_download"
+                    style="@style/AL_GameListDownloadButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

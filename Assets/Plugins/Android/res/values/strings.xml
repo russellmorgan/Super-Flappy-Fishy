@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="al_loading_">Loading..</string>
+
+    <string name="al_for_free">FREE</string>
+    <string name="al_download_button">Download</string>
+    <string name="al_daily_store_button">Download the Game!</string>
+    
+    <string name="al_slots_spin">SPIN</string>
+    <string name="al_slots_spin_to_win">SPIN TO WIN</string>
+
+    <string name="al_you_win">YOU WIN!!!</string>
+
+</resources>

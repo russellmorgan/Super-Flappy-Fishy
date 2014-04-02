@@ -42,6 +42,13 @@ public class iAdUseExample : MonoBehaviour {
 		banner1.Show();
 	}
 
+	public void hideBanner () {
+		banner1.Hide();
+	}
+
+	public void showBanner () {
+		banner1.Show();	
+	}
 
 	private void InitStyles () {
 		style =  new GUIStyle();

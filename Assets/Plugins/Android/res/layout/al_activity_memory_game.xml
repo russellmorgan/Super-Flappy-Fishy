@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/al_memory_backgrnd" >
+
+    <GridView
+        android:id="@+id/al_memory_game_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="0dp"
+        android:adjustViewBounds="true"
+        android:columnWidth="@dimen/al_memory_cell_size"
+        android:gravity="center"
+        android:horizontalSpacing="2dp"
+        android:listSelector="@null"
+        android:numColumns="4"
+        android:padding="0dp"
+        android:stretchMode="none"
+        android:verticalSpacing="2dp" />
+
+    <ImageView
+        android:id="@+id/al_memory_center_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/al_memory_center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:text="@string/al_you_win"
+        android:textColor="@color/al_global_white_transparent"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/al_btn_close" />
+
+    <com.applift.playads.ui.widget.BrandingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp" />
+
+</RelativeLayout>

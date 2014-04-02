@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <dimen name="al_memory_cell_size">150dp</dimen>
+    
+    <dimen name="al_game_row_height">200dp</dimen>
+    <dimen name="al_game_row_image_side">120dp</dimen>
+    <dimen name="al_game_row_image_margin_vertical">20dp</dimen>
+    <dimen name="al_game_row_image_margin_horizontal">15dp</dimen>
+    <dimen name="al_game_row_name_margin">35dp</dimen>
+    <dimen name="al_game_row_price_margin">30dp</dimen>
+    <dimen name="al_game_row_download_margin">15dp</dimen>
+
+</resources>

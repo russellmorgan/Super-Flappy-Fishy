@@ -1,0 +1,20 @@
+{
+    "group": "PlayAdsSDK",
+    "libs": ["Plugins/iOS/libPlayAdsSDK.a"],
+    "frameworks": [ "ImageIO.framework",
+                    "SystemConfiguration.framework",
+                    "QuartzCore.framework",
+                    "CoreTelephony.framework",
+                    "CoreGraphics.framework",
+                    "AdSupport.framework",
+                    "StoreKit.framework",
+                    "AVFoundation.framework",
+                    "Security.framework",
+                    "UIKit.framework",
+                    "Foundation.framework" ]
+    "headerpaths": ["Plugins/iOS/"],
+    "files": ["Plugins/iOS/PlayAds.bundle"],
+    "folders": [],
+    "excludes": ["^.*.meta$", "^.*.mdown$"],
+    "linker_flags": ["-ObjC"]
+}

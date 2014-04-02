@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/scratch_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ViewFlipper
+            android:id="@+id/al_slide_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!--
+        Sliding buttons. Could be the alternative swappers. Should be discussed with QA/PO 
+        <ImageView 
+            android:id="@+id/al_arrow_right"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/al_arrow_right"
+            android:layout_gravity="center_vertical|right"/>
+        
+        <ImageView 
+            android:id="@+id/al_arrow_left"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@anim/al_arrow_mirror"
+            android:layout_gravity="center_vertical|left"/>
+        -->
+
+        <com.applift.playads.ui.widget.ScratchView
+            android:id="@+id/scratch_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/al_btn_close" />
+
+</RelativeLayout>

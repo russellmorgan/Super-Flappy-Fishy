@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ViewFlipper
+        android:id="@+id/al_memory_flipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/al_memory_image_front"
+                android:layout_width="@dimen/al_memory_cell_size"
+                android:layout_height="@dimen/al_memory_cell_size" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/al_memory_image_back"
+                android:layout_width="@dimen/al_memory_cell_size"
+                android:layout_height="@dimen/al_memory_cell_size" />
+
+            <ImageView
+                android:id="@+id/al_memory_cell_cover"
+                android:layout_width="@dimen/al_memory_cell_size"
+                android:layout_height="@dimen/al_memory_cell_size"
+                android:background="@color/al_global_white_transparent"
+                android:visibility="gone" />
+        </FrameLayout>
+    </ViewFlipper>
+
+</FrameLayout>

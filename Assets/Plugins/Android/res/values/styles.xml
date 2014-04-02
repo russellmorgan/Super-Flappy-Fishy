@@ -1,0 +1,101 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.PlayAds" parent="@android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Global Styles -->
+    <style name="_AL_DarkShadedTextStyle">
+        <item name="android:shadowColor">@color/al_shadow_dark</item>
+        <item name="android:shadowDx">-0.5</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="_AL_ShadedTextStyle">
+        <item name="android:shadowColor">@color/al_shadow_normal</item>
+        <item name="android:shadowDx">-0.5</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <!-- GameList Styles -->
+    <style name="AL_GameListNameStyle">
+        <item name="android:textColor">@color/al_global_dark_grey</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AL_GameListCurrentPriceStyle">
+        <item name="android:textColor">@color/al_global_orange</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AL_GameListDownloadButtonStyle">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@color/al_btn_green_end</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:text">@string/al_download_button</item>
+        <item name="android:textColor">@color/al_global_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AL_GameListRowIcon">
+        <item name="android:maxHeight">40dip</item>
+        <item name="android:maxWidth">40dip</item>
+        <item name="android:minHeight">40dip</item>
+        <item name="android:minWidth">40dip</item>
+    </style>
+
+    <!-- Daily Styles -->
+
+    <style name="AL_DailyCurrentPrice" parent="@style/_AL_DarkShadedTextStyle">
+        <item name="android:textColor">@color/al_global_orange</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AL_DailyTileText" parent="@style/_AL_DarkShadedTextStyle">
+        <item name="android:textColor">@color/al_global_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Categories Styles -->
+
+    <style name="AL_TagTextStyle">
+        <item name="android:textColor">@color/al_global_white</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/al_shape_tag</item>
+    </style>
+
+    <style name="AL_DailyButtonStyle" parent="@style/_AL_ShadedTextStyle">
+        <item name="android:textColor">@color/al_global_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:minHeight">45dip</item>
+        <item name="android:background">@color/al_btn_green_end</item>
+    </style>
+
+    <style name="AL_DailyInfoBox">
+        <item name="android:textColor">@color/al_global_white</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:background">@drawable/al_dark_grey_box</item>
+    </style>
+
+</resources>
